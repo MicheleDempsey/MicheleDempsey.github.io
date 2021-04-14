@@ -1,2 +1,37 @@
-h1{color: #66cc99;}
+*,*::before,*::after { box-sizing: border-box;}
 
+h1{
+    color: #66cc99;
+    border color: deepskyblue;
+    margin:auto;
+    text-align: center;
+    width: 50%;
+    
+}
+
+h2{ color: #66cc99;
+    border color: deepskyblue;
+    margin:auto;
+    text-align: center;
+    width: 50%;}
+
+
+    
+
+main>p:first-of-type::first-letter {
+    font-family: "Gentium Book Basic", serif;
+    font-weight: bold;
+    font-size: 300%;}
+
+p {margin:auto;
+width: 50%;}
+p {
+  margin-bottom: 0 }
+p + p {
+  text-indent: 1.5em;
+  margin-top: 0 }
+
+ol {margin:auto;
+width: 50%;}}
+
+  
