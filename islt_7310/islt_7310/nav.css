@@ -1,5 +1,5 @@
 
-nav { position: absolute; }
+nav { position: relative; }
 nav ul {
 list-style-type: none;
 margin: 0;
