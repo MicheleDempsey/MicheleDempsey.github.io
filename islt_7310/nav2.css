@@ -10,44 +10,35 @@ nav li {
     display:inline-block;
     float: left;
     margin-right: 1px;
-    background-color: lightsalmon;
 }
-
-
-
-
 /*Style for menu links*/
 nav li a {
     display:block;
     min-width:140px;
-    height: 70px;
+    height: 50px;
     text-align: center;
-    line-height: 70px;
-    font-family:"Verdana, Geneva, sans-serif";
-    color: #black;
-    background-color: #mediumseagreen;
-    border-style: solid;
-    border-color: deepskyblue
+    line-height: 50px;
+    font-family: Verdana, Geneva, sans-serif;;
+    color: white;
+    background: lightsalmon;
     text-decoration: none;
 }
 /*Hover state for top level links*/
 nav li:hover a {
-    background: #mediumseagreen9; color: #fff;
+    background: cornflowerblue;
 }
 /*Style for dropdown links*/
-nav li:hover ul a {
-    background: #deepskyblue;
-    color: #deepskyblue;
+nav li:hover nav ul a {
+    background: #f3f3f3;
+    color: #2f3036;
     height: 40px;
     line-height: 40px;
 }
 /*Hover state for dropdown links*/
-nav li:hover ul a:hover {
-    background-color: #deepskyblue;
+nav li:hover nav ul a:hover {
+    background: #19c589;
     color: #fff;
 }
-
-
 /*Hide dropdown links until they are needed*/
 nav li ul {
     display: none;
@@ -67,11 +58,9 @@ nav li ul li a {
 nav ul li a:hover + .hidden, .hidden:hover {
     display: block;
 }
-
-
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
-    font-family:Georgia, Times, "Times New Roman", serif; 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     color: #fff;
     background: #19c589;
@@ -87,24 +76,23 @@ input[type=checkbox]{
 input[type=checkbox]:checked ~ #menu{
     display: block;
 }
-
 /*Responsive Styles*/
 @media screen and (max-width : 760px){
     /*Make dropdown links appear inline*/
-   nav ul {
+    nav ul {
         position: static;
         display: none;
     }
     /*Create vertical spacing*/
-   nav li {
+    nav li {
         margin-bottom: 1px;
     }
     /*Make all menu links full width*/
     nav ul li, li a {
         width: 100%;
     }
-    
- /*Display 'show menu' link*/
+    /*Display 'show menu' link*/
     .show-menu {
         display:block;
     }
+}

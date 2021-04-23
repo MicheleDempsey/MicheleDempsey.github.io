@@ -1,15 +1,12 @@
-
 @font-face { 
 
-font-family: Kranky; /*this is where we give our font a name so we can use it!*/
-
-    src: url("font.ttf"); /*remember this is how we link to files in CSS!*/}
+font-family: Kranky; 
+    src: url("font.ttf");}
 img{float: right}
 h1{
     color: #66cc99;
-    
-    margin:auto;
-    text-align: center;
+
+    text-align: left;
     }
    
 h1 { font-family: Georgia, Times, "Times New Roman", serif;}
@@ -21,17 +18,13 @@ h2{ color: cornflowerblue;margin:auto;
     text-align: left;
     }
 
-  blockquote {font-family: Kranky; }
 
 
 blockquote {margin:auto;
-    text-align: center;
-    }   
+    text-align: center; font-family: 'Kranky', cursive;}
+       
 
-article>p:first-of-type::first-letter {
-    font-family: "Gentium Book Basic", serif;
-    font-weight: bold;
-    font-size: 300%;}
+
     
     article {margin:auto;text-align: left;}
 ul {font-family: Verdana, Geneva, sans-serif;}
@@ -53,9 +46,7 @@ footer {
 .content {
   grid-area: content;
 }
-.main-nav {
-  grid-area: nav;
-}
+
 
 
 .main-footer {
@@ -66,7 +57,7 @@ footer {
 .wrapper {
   display: grid;
   
-    
+ 
   grid-template-areas:
    
     "header"
@@ -77,51 +68,55 @@ footer {
 
 @media (min-width: 500px) {
   .wrapper {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-template-areas:
-      "nav  nav"
-      "header    header"
+      "header  header"
       "content content"
       "footer footer";
-  }
+    }}
   
- 
-
+ nav ul {
+    display: flex;
+     justify-content: space-between;}
 
 @media (min-width: 700px) {
   .wrapper {
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr;
     grid-template-areas:
-        "header header"   
-        "content content"
-        "footer footer"
+      "header header  header"
+    "content content content"   
+      "footer footer  footer"
    }
-   
-    .FloatLeft{float: left;}
+  
+     }
+.FloatLeft {float: left;}
 
 
 
-    
-    @media print {
-        *{
-            background: transparent !important;
-            color: #000 !important;
-            box-shadow: none !important;
-            text-shadow: none !important;
-        }
-        .nav
-        {display: none;}
-        img
-        {visibility: none;}
-        header {margin-bottom: 0;
-        border: none;
-            text-align: center;}
-           a[href]:after {
-               content: none !important;
-            display: none;}
-            @page{margin: 1 in;}
-            
+@media print {
+    *{background: transparent;
+    color: #000;
+    box-shadow: none;
+    text-shadow: none;}
+    nav {display: none;}
+    img {display: none}
+    @page {
+  margin: 1in;
+}
+p {
+font: 12pt Georgia, Times, "Times New Roman", serif;
+line-height: 1.5;
+}   
+    h1 {font: 16pt Georgia, Times, "Times New Roman", serif;;
+line-height: 1.5;}
+     h2 {font: 14pt Georgia, Times, "Times New Roman", serif;
+line-height: 1.5;}
+    .myDiv {display:none;}
     }
+       
+         
+    
+    
 
  
     

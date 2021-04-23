@@ -90,11 +90,7 @@ footer {
    text-align: center;
 }
 
-article>p:first-of-type::first-letter {
-    font-family: "Gentium Book Basic", serif;
-    font-weight: bold;
-    font-size: 300%;}
-    
+
     article {margin:auto;text-align: center;}
 ul {font-family: Georgia, Times, "Times New Roman", serif;}
 ol {font-family: Georgia, Times, "Times New Roman", serif;}
