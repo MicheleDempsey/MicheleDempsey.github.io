@@ -61,7 +61,7 @@ h1{
     color: #66cc99;
     
     margin:auto;
-    text-align: left;
+    text-align: center;
     }
    
 h1 { font-family: Georgia, Times, "Times New Roman", serif;}
@@ -85,7 +85,7 @@ footer {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: cornflowerblue;
+   background-color: lightskyblue;
    color: white;
    text-align: center;
 }
@@ -99,4 +99,6 @@ article>p:first-of-type::first-letter {
 ul {font-family: Georgia, Times, "Times New Roman", serif;}
 ol {font-family: Georgia, Times, "Times New Roman", serif;}
     
+    
+  
     

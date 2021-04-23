@@ -3,53 +3,66 @@
 <head>
                <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style2.css"> 
-   <link rel="stylesheet" href="nav2.css">  
-    
+   <link rel="stylesheet" href="style.css"> 
+   <link rel="stylesheet" href="nav.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
                <title>References and Additional Websites</title>
 </head>
 <body>
-    <nav>
-    <ul id="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        
-        <li>
-            <a href="learn.html">Learn</a>
-            <ul class="hidden">
-                <li><a href="#l">Link1</a></li>
-                <li><a href="#l">Link2</a></li>
-                <li><a href="#l">Link3</a></li>
-            </ul>
-        </li>
-        <li><a href="references.html">References and Additional Resources</a></li> 
-        <li>
-            
-        <li><a href="#contact.html">Contact Me</a></li>
-    
-        </ul>   </nav>
-    <label for="show-menu" class="show-menu">Show Menu</label>
-<input type="checkbox" id="show-menu" role="button">
-    
-    <br><br><br><br><br><br><br>
-     <header class="main-head">
-     <h1>Right Triangle Trigonometry and the Pythagorean Theorem </h1></header>   
-       
-    
-  
+
     <div class="wrapper">    
     
-      
+ <header class="main-head">
+     <h1>Right Triangle Trigonometry and the Pythagorean Theorem </h1></header>   
     
+ <div class="topnav" id="myTopnav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="learn.html">Learn</a>
+        
+ <div class="dropdown">
+    <button class="dropbtn">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="#l">Link1</a></li>
+    <a href="#l">Link2</a></li>
+    <a href="#l">Link3</a></li>
+         </div> </div>                         
+    <a href="references.html">References and Additional Resources</a> 
+    <a href="#contact.html">Contact Me</a>
+    
+ 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>   
+
+<nav class="main-nav">
+    
+   <!-- Drop down menu --> 
+   <ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+<li><a href="learn.html">Learn</a>
+        
+ <ul>
+    <li><a href="#l">Link1</a></li>
+    <li><a href="#l">Link2</a></li>
+    <li><a href="#l">Link3</a></li>
+                            </ul>     </li>  
+    <li><a href="references.html">References and Additional Resources</a></li> 
+    <li><a href="#contact.html">Contact Me</a></li>
+    
+</ul>   
+    
+    </nav>
 <main>
     
-    
     <article class="content"> 
-        
-         <img src="Mustang%202.jpg" alt="" width="175"
-         height="300" class="floatRight"> <br><br><br><br>
-<h2>References</h2> <br> <br>  
+        <br> <br>
+<h2>References</h2> <br> <br>
     
 <ol>    
     
@@ -151,5 +164,3 @@
     </div>
 </body>
 </html>     
-
-     

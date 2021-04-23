@@ -1,0 +1,110 @@
+/*Strip the ul of padding and list styling*/
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+/*Create a horizontal list with spacing*/
+nav li {
+    display:inline-block;
+    float: left;
+    margin-right: 1px;
+    background-color: lightsalmon;
+}
+
+
+
+
+/*Style for menu links*/
+nav li a {
+    display:block;
+    min-width:140px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-family:"Verdana, Geneva, sans-serif";
+    color: #black;
+    background-color: #mediumseagreen;
+    border-style: solid;
+    border-color: deepskyblue
+    text-decoration: none;
+}
+/*Hover state for top level links*/
+nav li:hover a {
+    background: #mediumseagreen9; color: #fff;
+}
+/*Style for dropdown links*/
+nav li:hover ul a {
+    background: #deepskyblue;
+    color: #deepskyblue;
+    height: 40px;
+    line-height: 40px;
+}
+/*Hover state for dropdown links*/
+nav li:hover ul a:hover {
+    background-color: #deepskyblue;
+    color: #fff;
+}
+
+
+/*Hide dropdown links until they are needed*/
+nav li ul {
+    display: none;
+}
+/*Make dropdown links vertical*/
+nav li ul li {
+    display: block;
+    float: none;
+}
+/*Prevent text wrapping*/
+nav li ul li a {
+    width: auto;
+    min-width: 100px;
+    padding: 0 20px;
+}
+/*Display the dropdown on hover*/
+nav ul li a:hover + .hidden, .hidden:hover {
+    display: block;
+}
+
+
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+    font-family:Georgia, Times, "Times New Roman", serif; 
+    text-decoration: none;
+    color: #fff;
+    background: #19c589;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+/*Hide checkbox*/
+input[type=checkbox]{
+    display: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 760px){
+    /*Make dropdown links appear inline*/
+   nav ul {
+        position: static;
+        display: none;
+    }
+    /*Create vertical spacing*/
+   nav li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    nav ul li, li a {
+        width: 100%;
+    }
+    
+ /*Display 'show menu' link*/
+    .show-menu {
+        display:block;
+    }
