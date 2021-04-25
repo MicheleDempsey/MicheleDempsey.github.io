@@ -73,7 +73,7 @@ input[type=checkbox]{
     display: none;
 }
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ menu{
+input[type=checkbox]:checked ~ #menu{
     display: block;}
 /*Responsive Styles*/
 @media screen and (max-width : 760px){
@@ -87,7 +87,7 @@ input[type=checkbox]:checked ~ menu{
         margin-bottom: 1px;
     }
     /*Make all menu links full width*/
-     ul li, li a {
+     ul li, nav li a {
         width: 100%;
     }
     /*Display 'show menu' link*/
