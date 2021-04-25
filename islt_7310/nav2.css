@@ -78,7 +78,7 @@ input[type=checkbox]:checked ~ #menu{
 /*Responsive Styles*/
 @media screen and (max-width : 760px){
     /*Make dropdown links appear inline*/
-      nav ul {
+       ul {
         position: static;
         display: none;
     }
@@ -87,7 +87,7 @@ input[type=checkbox]:checked ~ #menu{
         margin-bottom: 1px;
     }
     /*Make all menu links full width*/
-     nav ul li, nav li a {
+      ul li,  li a {
         width: 100%;
     }
     /*Display 'show menu' link*/
