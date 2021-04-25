@@ -23,7 +23,10 @@ h3{font-family: Georgia, Times, "Times New Roman", serif; text-align: center; co
 blockquote {margin:auto;
     text-align: center; font-family: 'Kranky', cursive;}
        
-
+input[type=checkbox]:checked ~ #image {
+   position:relative;
+    display:inline-block;}
+   
 
 footer {
    position: fixed;
@@ -43,7 +46,7 @@ footer {
   grid-area: content;
 }
 
-
+img {width= 33%}
 
 
 
@@ -62,8 +65,7 @@ footer {
     "content"
     "footer";
 }
-img{width: 75%;
-max-width: 300px;}
+
 
 .resp-container {
     position: relative;
@@ -97,29 +99,15 @@ max-width: 300px;}
     "content"  
       "footer"
     }}
-    
+  
  .image {
    position:relative;
-   display:inline-block;
+   display:inline-block; 
 }
-.overlay {
-   display:none;
-}
-.image:hover .overlay {
-   width:100%;
-   height:100%;
-   background:rgba(0,0,0,.5);
-   position:absolute;
-   top:0;
-   left:0;
-   display:inline-block;
-   -webkit-box-sizing:border-box;
-   -moz-box-sizing:border-box;
-   box-sizing:border-box;
 
-   /* All other styling - see example */
+
    
-}   
+  
   
      
 .FloatLeft {float: right;}
