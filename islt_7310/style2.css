@@ -62,7 +62,9 @@ footer {
     "content"
     "footer";
 }
-
+img{width: 75%;
+max-width: 300px;}
+.shrink{width:33%; max-width: 300px }
 
 @media (min-width: 500px) {
   .wrapper {
