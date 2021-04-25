@@ -73,7 +73,7 @@ input[type=checkbox]{
     display: none;
 }
 /*Show menu when invisible checkbox is checked*/
-input[type=checkbox]:checked ~ nav{
+input[type=checkbox]:checked ~ #nav{
     display: block;
 }
 /*Responsive Styles*/
