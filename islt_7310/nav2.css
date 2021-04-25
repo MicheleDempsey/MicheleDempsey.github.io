@@ -87,9 +87,9 @@ input[type=checkbox]:checked ~ #menu{
         margin-bottom: 1px;
     }
     /*Make all menu links full width*/
-      nav ul li, nav li a {
-        width: 100%;
+      nav ul li{width: 100%;
     }
+    nav ul li a {width: 100%}
     /*Display 'show menu' link*/
     .show-menu {
         display: block;
