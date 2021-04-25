@@ -23,9 +23,7 @@ h3{font-family: Georgia, Times, "Times New Roman", serif; text-align: center; co
 blockquote {margin:auto;
     text-align: center; font-family: 'Kranky', cursive;}
        
-input[type=checkbox]:checked ~ #image {
-   position:relative;
-    display:inline-block;}
+
    
 
 footer {
@@ -100,10 +98,7 @@ img {width= 33%}
       "footer"
     }}
   
- .image {
-   position:relative;
-   display:inline-block; 
-}
+ 
 
 
    
