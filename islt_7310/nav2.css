@@ -80,7 +80,7 @@ input[type=checkbox]:checked ~ #menu{
     /*Make dropdown links appear inline*/
       nav ul {
         position: static;
-        display: none;
+        display: inline;
     }
     /*Create vertical spacing*/
      nav li {
