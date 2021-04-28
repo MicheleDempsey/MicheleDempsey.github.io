@@ -61,7 +61,7 @@ footer {
   grid-template-areas:
    
     "header image"; 
-    "content content";
+    "content image";
     "footer footer";
 }
 
