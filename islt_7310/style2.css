@@ -44,8 +44,7 @@ footer {
   grid-area: content;
 }
 
-.image {
-    grid-area:image;}
+
 .image {width: 15%;height:auto; float:right;}
 
 
@@ -58,22 +57,22 @@ footer {
     display: grid;}
   
  
-  grid-template-areas:
-   
-    "header image"; 
-    "content image";
-    "footer footer";
-}
+.wrapper {
+    grid-template-areas:
+"header"
+"content"
+        "footer";}
 
 
 
-@media (min-width: 500px) {
+
+@media (min-width: 500px){
   .wrapper {
     
     grid-template-areas:
-      "header image"
-      "content content"
-      "footer footer"
+      "header"
+      "content"
+      "footer";
     }}
   
 
@@ -82,9 +81,9 @@ footer {
   .wrapper {
     
       grid-template-areas:
-      "header image"
-    "content image"
-      "footer footer"
+      "header"
+    "content"
+      "footer";
     }}
   
 .center {
