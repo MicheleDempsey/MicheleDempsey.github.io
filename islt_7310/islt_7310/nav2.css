@@ -28,19 +28,19 @@ nav li:hover a {
     background: gold;
 }
 /*Style for dropdown links*/
-nav li:hover nav ul a {
-    background: black;
-    color: #2f3036;
+nav li:hover ul a {
+    background: gold;
+    color: white;
     height: 40px;
     line-height: 40px;
 }
 /*Hover state for dropdown links*/
-nav li:hover nav ul a:hover {
+ nav li:hover ul a:hover {
     background: cornflowerblue;
     color: #fff;
 }
 /*Hide dropdown links until they are needed*/
-nav li ul {
+ nav li ul {
     display: none;
 }
 /*Make dropdown links vertical*/
@@ -49,7 +49,7 @@ nav li ul li {
     float: none;
 }
 /*Prevent text wrapping*/
-nav li ul li a {
+nav li nav ul li a {
     width: auto;
     min-width: 100px;
     padding: 0 20px;
@@ -74,25 +74,24 @@ input[type=checkbox]{
 }
 /*Show menu when invisible checkbox is checked*/
 input[type=checkbox]:checked ~ #menu{
-    display: block;
-}
+    display: block;}
 /*Responsive Styles*/
 @media screen and (max-width : 760px){
     /*Make dropdown links appear inline*/
-    nav ul {
+       nav ul {
         position: static;
         display: none;
     }
     /*Create vertical spacing*/
-    nav li {
+     nav li {
         margin-bottom: 1px;
     }
     /*Make all menu links full width*/
-    nav ul li, li a {
-        width: 100%;
+      nav ul li{width: 100%;
     }
+    nav ul li a {width: 100%}
     /*Display 'show menu' link*/
     .show-menu {
-        display:block;
+        display: block;
     }
 }
