@@ -20,23 +20,23 @@ nav li a {
     line-height: 50px;
     font-family: Verdana, Geneva, sans-serif;;
     color: white;
-    background: cornflowerblue;
+    background: darkblue;
     text-decoration: none;
 }
 /*Hover state for top level links*/
 nav li:hover a {
-    background: red;
+    background: tomato;
 }
 /*Style for dropdown links*/
 nav li:hover ul a {
-    background: red;
+    background: tomato;
     color: white;
     height: 40px;
     line-height: 40px;
 }
 /*Hover state for dropdown links*/
  nav li:hover ul a:hover {
-    background: cornflowerblue;
+    background:darkblue;
     color: #fff;
 }
 /*Hide dropdown links until they are needed*/
@@ -63,7 +63,7 @@ nav ul li a:hover + .hidden, .hidden:hover {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     color: #fff;
-    background: cornflowerblue;
+    background: darkblue;
     text-align: center;
     padding: 10px 0;
     display: none;

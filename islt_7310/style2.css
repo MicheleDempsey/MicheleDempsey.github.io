@@ -289,7 +289,7 @@ th {text-align: left;
  
 table, th, td   {border: 1px solid black;border-collapse: collapse;} 
 th, td {padding: 10px;}
-tr:nth-child(even){background-color:red;}
+tr:nth-child(even){background-color:gold;}
 tr:nth-child(odd){background-color: lightskyblue;}
 table, th, td {font-family: Verdana, Geneva, sans-serif;}
 caption {font-size: 16pt;color: darkblue;}
