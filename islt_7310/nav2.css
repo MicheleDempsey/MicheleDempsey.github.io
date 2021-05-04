@@ -25,11 +25,11 @@ nav li a {
 }
 /*Hover state for top level links*/
 nav li:hover a {
-    background: gold;
+    background: red;
 }
 /*Style for dropdown links*/
 nav li:hover ul a {
-    background: gold;
+    background: red;
     color: white;
     height: 40px;
     line-height: 40px;
