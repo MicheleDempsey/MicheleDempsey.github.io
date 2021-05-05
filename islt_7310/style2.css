@@ -174,7 +174,7 @@ line-height: 1.5;}
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: white;
+    color: black;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
@@ -235,7 +235,7 @@ label.fcf-label {
 }
 
 .fcf-btn:hover {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -245,20 +245,20 @@ label.fcf-label {
 }
 
 .fcf-btn-primary {
-    color: white;
-    background-color: tomato;
+    color: black;
+    background-color: gold;
     border-color: black;
 }
 
 .fcf-btn-primary:hover {
-    color: #fff;
+    color: black;
     background-color: tomato;
     border-color: black;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
-    background-color: tomato;
+    background-color: gold;
     border-color: black;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
