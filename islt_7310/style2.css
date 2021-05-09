@@ -63,7 +63,7 @@ footer {
 "content"
         "footer";}
 
-
+.noshow{display: none;}
 
 
 @media (min-width: 500px){
@@ -84,7 +84,11 @@ footer {
       "header"
     "content"
       "footer";
-    }}
+    }
+
+    .noshow{display: inline-flex;}
+
+}
   
 .center {
   display: block;
@@ -293,3 +297,4 @@ tr:nth-child(even){background-color:gold;}
 tr:nth-child(odd){background-color: lightskyblue;}
 table, th, td {font-family: Verdana, Geneva, sans-serif;}
 caption {font-size: 16pt;color: darkblue;}
+
